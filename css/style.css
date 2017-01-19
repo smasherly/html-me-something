@@ -12,9 +12,14 @@ developer tools to see how those pages' styles are built).*/
     margin: 0 auto;
 }
 .intro {
-  background-color: ##E68D19;
+  background-color: #E68D19;
   color: #FFFFFF;
-  padding: 20px;
+  margin-bottom: 5px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  font-stretch: condensed;
+  font-size: 1.7rem;
+  text-align: center;
 
 }
 .image {
@@ -51,6 +56,7 @@ p {
 footer, figcaption {
     font-size: .6rem;
     color: #595856;
+    text-align: center;
     text-align: center;
 }
 
