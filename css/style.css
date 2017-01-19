@@ -7,7 +7,7 @@ As before, be creative! Make your page look great, and don't settle for checking
 the items above. Have a look at CSS Zen Garden for inspiration (use your browser's
 developer tools to see how those pages' styles are built).*/
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -25,17 +25,14 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
+}
 
 .page-wrapper {
     width: 500px;
@@ -60,8 +57,6 @@ footer, header, hgroup, menu, nav, section {
 
 * {
     font-family: sans-serif;
-
-    padding: 5px;
     font-size: 20px;
 }
 html {
