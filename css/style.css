@@ -1,8 +1,59 @@
-Use margin and padding to space your elements in a visually pleasing way.
+/*Use margin and padding to space your elements in a visually pleasing way.
 Use at least one of each of the following types of selectors: element, class, id.
 Don't break these rules:
 At all costs, avoid adding HTML elements in order to achieve a specific visual effect.
 Use document-level and inline styles sparingly, and only when absolutely necessary.
 As before, be creative! Make your page look great, and don't settle for checking off
 the items above. Have a look at CSS Zen Garden for inspiration (use your browser's
-developer tools to see how those pages' styles are built).
+developer tools to see how those pages' styles are built).*/
+
+.page-wrapper {
+    width: 500px;
+    margin: 0 auto;
+}
+.intro {
+  background-color: ##E68D19;
+  color: #FFFFFF;
+  padding: 20px;
+
+}
+.image {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+* {
+    font-family: sans-serif;
+
+    padding: 5px;
+    font-size: 20px;
+}
+html {
+      background-color: #F0F2F2;
+}
+
+div {
+    width: 100%;
+}
+
+h1, h2 {
+    color: #E68D19;
+    font-size: 1.2rem;
+    padding-top: 30px;
+}
+
+p {
+    color: #595856;
+    font-size: .8rem;
+}
+
+footer, figcaption {
+    font-size: .6rem;
+    color: #595856;
+    text-align: center;
+}
+
+figure {
+    width: 100%;
+}
