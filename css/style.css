@@ -7,37 +7,118 @@ As before, be creative! Make your page look great, and don't settle for checking
 the items above. Have a look at CSS Zen Garden for inspiration (use your browser's
 developer tools to see how those pages' styles are built).*/
 
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
 .page-wrapper {
-    width: 500px;
-    margin: 0 auto;
+  width: 500px;
+  margin: 0 auto;
 }
+
 .intro {
   background-color: #E68D19;
   color: #FFFFFF;
@@ -47,44 +128,46 @@ footer, header, hgroup, menu, nav, section {
   font-stretch: condensed;
   font-size: 1.7rem;
   text-align: center;
-
 }
+
 .image {
-    display: block;
-    margin: auto;
-    width: 100%;
+  display: block;
+  margin: auto;
+  width: 100%;
 }
 
 * {
-    font-family: sans-serif;
-    font-size: 20px;
+  font-family: sans-serif;
+  font-size: 20px;
 }
+
 html {
-      background-color: #F0F2F2;
+  background-color: #F0F2F2;
 }
 
 div {
-    width: 100%;
+  width: 100%;
 }
 
-h1, h2 {
-    color: #E68D19;
-    font-size: 1.2rem;
-    padding-top: 30px;
+h1,
+h2 {
+  color: #E68D19;
+  font-size: 1.2rem;
+  padding-top: 30px;
 }
 
 p {
-    color: #595856;
-    font-size: .8rem;
+  color: #595856;
+  font-size: .8rem;
 }
 
-footer, figcaption {
-    font-size: .6rem;
-    color: #595856;
-    text-align: center;
-    text-align: center;
+#small_text {
+  font-size: .6rem;
+  color: #595856;
+  text-align: center;
+  text-align: center;
 }
 
 figure {
-    width: 100%;
+  width: 100%;
 }
